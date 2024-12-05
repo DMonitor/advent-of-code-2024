@@ -1,0 +1,16 @@
+[workspace]
+members = [
+    "day01",
+    "day02",
+    "day03",
+    "day04",
+]
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[workspace.package]
+authors = ["Kevin Kearney"]
+description = "Advent of Code 2024"
+edition = "2021"
+version = "0.1.0"
