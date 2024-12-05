@@ -1,4 +1,3 @@
-use std::fs;
 use itertools::Itertools;
 const INPUT: &str = include_str!("../input");
 fn parse_file(file: &str) -> (Vec<u32>, Vec<u32>) {
@@ -16,7 +15,7 @@ fn parse_file(file: &str) -> (Vec<u32>, Vec<u32>) {
 // then, for each unique, count appearances in 2
 // sum appearances
 
-// for each in day01, check if in day01'
+// for each in day01, check if in day01
 // else count appearances in 2 and add to total
 
 // sort both lists
